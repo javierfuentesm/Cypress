@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " ./node_modules/.bin/cypress open"
+    "test": " ./node_modules/.bin/cypress open",
+    "test-record": "cypress run --record --key 73dd7845-e18f-44f3-ab95-65cdaf306ec6",
+    "test-headless": "cypress run"
+
   },
   "keywords": [],
   "author": "",
