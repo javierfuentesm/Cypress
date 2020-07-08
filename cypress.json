@@ -1,4 +1,5 @@
 {
   "baseUrl": "http://zero.webappsecurity.com",
-  "projectId": "qs7zdq"
+  "projectId": "qs7zdq",
+  "testFiles": "**/*.{feature,features}"
 }

@@ -6,13 +6,18 @@
   "scripts": {
     "test": " ./node_modules/.bin/cypress open",
     "test-record": "cypress run --record --key 73dd7845-e18f-44f3-ab95-65cdaf306ec6",
-    "test-headless": "cypress run"
-
+    "test-headless": "cypress run",
+    "test-cucumber": "cypress run --spec \"**/*.feature\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.9.0"
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.3",
+    "cypress-wait-until": "^1.7.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
