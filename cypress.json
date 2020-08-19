@@ -1,5 +1,7 @@
 {
-  "baseUrl": "http://zero.webappsecurity.com",
+  "baseUrl": "https://qa-dentsu.hudsonmx.net/",
   "projectId": "qs7zdq",
-  "testFiles": "**/*.{feature,features}"
+  "testFiles": "**/*.{feature,features}",
+  "chromeWebSecurity": false
+
 }

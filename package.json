@@ -21,7 +21,8 @@
     "@shelex/cypress-allure-plugin": "^1.6.2",
     "cypress": "^4.9.0",
     "cypress-cucumber-preprocessor": "^2.5.3",
-    "cypress-wait-until": "^1.7.1"
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
